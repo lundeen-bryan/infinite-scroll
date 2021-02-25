@@ -34,3 +34,23 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* IMAGE-CONTAINTER.START */
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* MEDIA query for lg */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .image-container {
+    margin: 10px;
+  }
+}
